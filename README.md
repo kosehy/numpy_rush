@@ -55,7 +55,7 @@ mkdir notebooks
 
 docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
 
-- To get docker-host-multiplication
+- To get docker-host-ip
 
 docker-machine ls
 
