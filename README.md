@@ -17,35 +17,50 @@
 ## Introduction  
 
 #### About This Project
-
+This project is official rush project in 42 school. The project is to do the simple numpy array multiplication tutorial and implement more than four instagram filters. This serves two purposes, to help us learn the numpy array and to use and implement exercise using numpy library.
 #### About Me
-
+42
 #### About 42  
 [42][42] is a free, non profit, project-based, peer-to-peer learning coding school. It originated in France and now has over 20 campuses all over the world. More information can be found [here][42] 
 
 ## Objective  
+The assignment is broken up into a part 1 and part 2.
+Part 1 is to do the simple numpy array multiplication tutorial.
+Part 2 is to implement more than four instagram filters.
 
 ## Instructions
 Make sure you have the needed [dependencies](#dependencies) before proceeding.
-For instructions and/or greater detail refer to the project [pdf][pdf]  
+For instructions and/or greater detail refer to the project [pdf][pdf]
 
 ## Dependencies  
-* A C language compiler most common would be GCC or Clang.
-* These were written to run on Unix based systems, it would likely work on a windows machine too but is currently untested. 
+* numpy
+* matplotlib
+* jupyter
 
-## Installation 
+## Installation
+brew install docker-machine docker
+brew services start docker-machine
+docker-machine create --driver virtualbox default
+eval "$(docker-machine env default)"
 
 ## Usage  
+# download Dockerfile
+# docker build -t numpy_rush .
+# mkdir notebooks
+# docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
+To get docker-host-multiplication
+# docker-machine ls
+# <docker-host-ip>:8800/?token=...
 
 ## Testing  
+Most testing was done under a google colab environment.
 
-## Future 
+## Future
 
 ## Mechanics  
 
 ## Credits  
-
-Some frameworks and libraries that were helpful with testing.   
+[link][https://github.com/akiomik/pilgram]
 
 ## Disclaimer
 
@@ -58,8 +73,9 @@ This is not kept up to date and I cannot guarantee that it will work on your fut
 ## Keep in Touch
 
 You can find me on:
-
+[Github][kosehy]
 Enjoy!
 
 [42]: http://42.us.org "42 USA"
-[pdf]:  "Pdf"
+[pdf]: https://github.com/kosehy/numpy_rush/blob/master/numpy.en.pdf
+[kosehy]: https://github.com/kosehy
