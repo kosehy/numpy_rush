@@ -78,5 +78,5 @@ Enjoy!
 
 [42]: http://42.us.org "42 USA"
 [pdf]: https://github.com/kosehy/numpy_rush/blob/master/numpy.en.pdf
+[pilgram]: https://github.com/akiomik/pilgram
 [kosehy]: https://github.com/kosehy
-[pilgram] : https://github.com/akiomik/pilgram
