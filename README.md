@@ -39,17 +39,26 @@ For instructions and/or greater detail refer to the project [pdf][pdf]
 
 ## Installation
 brew install docker-machine docker
+
 brew services start docker-machine
+
 docker-machine create --driver virtualbox default
+
 eval "$(docker-machine env default)"
 
 ## Usage  
 download Dockerfile
+
 docker build -t numpy_rush .
+
 mkdir notebooks
+
 docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
+
 - To get docker-host-multiplication
+
 docker-machine ls
+
 <docker-host-ip>:8800/?token=...
 
 ## Testing  
@@ -60,7 +69,7 @@ Most testing was done under a google colab environment.
 ## Mechanics  
 
 ## Credits  
-[link][pilgram]
+[https://github.com/akiomik/pilgram][pilgram]
 
 ## Disclaimer
 
