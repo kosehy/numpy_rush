@@ -44,13 +44,13 @@ docker-machine create --driver virtualbox default
 eval "$(docker-machine env default)"
 
 ## Usage  
-# download Dockerfile
-# docker build -t numpy_rush .
-# mkdir notebooks
-# docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
-To get docker-host-multiplication
-# docker-machine ls
-# <docker-host-ip>:8800/?token=...
+download Dockerfile
+docker build -t numpy_rush .
+mkdir notebooks
+docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
+- To get docker-host-multiplication
+docker-machine ls
+<docker-host-ip>:8800/?token=...
 
 ## Testing  
 Most testing was done under a google colab environment.
@@ -60,7 +60,7 @@ Most testing was done under a google colab environment.
 ## Mechanics  
 
 ## Credits  
-[link][https://github.com/akiomik/pilgram]
+[link][pilgram]
 
 ## Disclaimer
 
@@ -79,3 +79,4 @@ Enjoy!
 [42]: http://42.us.org "42 USA"
 [pdf]: https://github.com/kosehy/numpy_rush/blob/master/numpy.en.pdf
 [kosehy]: https://github.com/kosehy
+[pilgram] : https://github.com/akiomik/pilgram
